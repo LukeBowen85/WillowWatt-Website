@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('nau_campus_image.jpg');
+    background-image: url('images/nau_campus_image.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
@@ -16,6 +16,11 @@ header {
     align-items: center;
     justify-content: space-between;
     position: relative;
+}
+
+.subheader {
+    font-style: italic;
+    color: #666;
 }
 
 .logo-container {
@@ -47,6 +52,10 @@ header {
 h1 {
     margin: 0;
     font-size: 1.8em;
+}
+
+h3 {
+    text-align: center;
 }
 
 .project-description {

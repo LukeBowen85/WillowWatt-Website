@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="logo-container">
-            <img src="WillowWatt_logo.png" alt="WillowWatt Logo" class="logo">
+            <img src="images/WillowWatt_logo.png" alt="WillowWatt Logo" class="logo">
         </div>
         <span class="capstone-text">WillowWatt Capstone 2025</span>
         <ul class="nav">
@@ -36,9 +36,42 @@
     </header>
 
     <section class="team">
-        <p>This section is currently under construction, and will become populated
-            as the semester progresses. Please check back later for updates!
-        </p>
+      <h3>Technologies</h3>
+        <p>WillowWatt is utilizing a variety of technologies to develop our solution. As we are mainly
+          working within Python to create an AI model, many of these technologies are external Python libraries.
+          In addition to this, there are additional steps we need to take to ensure our AI model can be easily
+          ported onto the Willow platform for their use. The identified technologies we will be using include:</p>
+        <ul>
+          <li style="font-weight: bold;">Python</li>
+
+          <ul>
+            <li>Pandas</li>
+            <p class="subheader">Pandas is a Python library we will be using for 
+              data scraping and cleaning, to load historical energy data into our AI model.
+            </p>
+            <li>NumPy</li>
+            <p class="subheader">NumPy is a standard Python library used for 
+              numerical computing. We will be using NumPy to perform mathematical operations on our data.
+            </p>
+            <li>Scikit-learn</li>
+            <p class="subheader">Scikit-learn is a Python library used for training AI models.
+              This library will help us to use machine learning on our AI model to ensure its accuracy
+              increases over time.
+            </p>
+            <li>Matplotlib</li>
+            <p class="subheader">Matplotlib is a Python library used for data visualization.
+              We will be using Matplotlib to visualize our data and the results of our AI model outside of the Willow platform.
+          </ul>
+
+
+          <li>ONNX</li>
+          <p class="subheader">ONNX is a standard for representing machine learning models.
+            We will be using ONNX to ensure our AI model can be easily ported onto the Willow platform.
+          <li>Torchvision</li>
+          <p class="subheader">Torchvision is a Python library used for computer vision tasks.
+            This library is not as crucial for this project, and is only going to be useful if we 
+            implement deep learning into our model.
+          </p>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
