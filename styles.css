@@ -33,6 +33,14 @@ header {
     margin-right: 15px;
 }
 
+.team-photo {
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+
+}
+
 .welcome-text {
     font-size: 1.5em;
     font-weight: bold;
@@ -153,6 +161,14 @@ h2 {
     color: #666;
     text-align: center;
     font-weight: normal;
+}
+
+.member-major {
+    font-size: .75em;
+    color: #666;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
 }
 
 /* Add media query for smaller screens */
